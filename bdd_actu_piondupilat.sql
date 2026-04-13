@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : lun. 23 mars 2026 à 14:20
+-- Généré le : lun. 13 avr. 2026 à 15:21
 -- Version du serveur : 10.4.32-MariaDB
 -- Version de PHP : 8.2.12
 
@@ -63,7 +63,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `nom`, `identifiant`, `motdepasse`) VALUES
-(1, 'Chris', 'xardaray', 'vicepresidentduclub');
+(1, 'admin', 'admin', 'admin1234');
 
 -- --------------------------------------------------------
 
