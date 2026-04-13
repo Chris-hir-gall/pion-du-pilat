@@ -1,0 +1,100 @@
+body {
+  font-family: 'Poppins', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #000000;
+
+  /* fond motif */
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      #EEEAE3 25%,
+      transparent 25%,
+      transparent 75%,
+      #EEEAE3 75%,
+      #EEEAE3
+    ),
+    repeating-linear-gradient(
+      45deg,
+      #EEEAE3 25%,
+      #000000 25%,
+      #000000 75%,
+      #EEEAE3 75%,
+      #EEEAE3
+    );
+
+  background-position: 0 0, 25px 25px;
+  background-size: 50px 50px;
+  background-attachment: fixed; /* le bg reste fixe */
+}
+.navbar-brand span {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+.hero {
+  background: radial-gradient(circle at top left, #f8f9fa, #e9ecef);
+  padding: 6rem 0 4rem;
+}
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.hero-subtitle {
+  font-size: 1.1rem;
+}
+.hero-badge {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+}
+.section-title {
+  font-weight: 700;
+}
+.section-subtitle {
+  color: #6c757d;
+  max-width: 620px;
+}
+.section-padding {
+  padding: 5px 0;
+}
+.icon-circle {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d6efd1a;
+  color: #0d6efd;
+}
+.schedule-day {
+  font-weight: 600;
+}
+.bg-soft {
+  background-color: #f8f9fa;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*Charte grafique adapte obtenu avec colorzilla*/
+
+.btn-primary {
+  background-color: rgb(117, 162, 86);
+  border-color: rgb(117, 162, 86);
+}
+
+.text-bg-primary {
+  background-color: rgb(117, 162, 86) !important;
+}
+
+.text-primary  {
+  color: rgb(117, 162, 86) !important;
+  
+}
+#carouselActualites .carousel-item {
+  min-height: 220px;
+}
+
+a{ text-decoration: none;}
+
